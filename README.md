@@ -9,7 +9,9 @@ lintChecks(projects.lintRules)
 # Composable ```testTag("")```
 - This linter checks if the composable function uses ```.testTag("")```. We use this tag to be able to find the element locators, or when we write native component tests.
 - Created a separated annotation if we want to skip test tag, also a custom Modifier if we want to skip it just for a simple view.
-  
+- 
+<img width="486" alt="image" src="https://github.com/user-attachments/assets/828af21c-4512-4a48-bf7b-50e2b68c90a8" />
+
 ### Composable function checks for ```.testTag("")``` is missing
 <img width="991" alt="image" src="https://github.com/user-attachments/assets/b92fe77e-cb80-427a-947e-3cbeb1519af8" />
 
