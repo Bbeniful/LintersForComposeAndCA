@@ -1,6 +1,11 @@
-### This is a demo for writing custom Linters for Android.
+# This is a demo for writing custom Linters for Android.
 
 - I used lint plugin
+### Use it in a module
+```kotlin
+lintChecks(projects.lintRules)
+```
+
 # Composable ```testTag("")```
 - This linter checks if the composable function uses ```.testTag("")```. We use this tag to be able to find the element locators, or when we write native component tests.
 - Created a separated annotation if we want to skip test tag, also a custom Modifier if we want to skip it just for a simple view.
